@@ -1,6 +1,6 @@
 #File: duolingo_data.py
 #Author: Mercury
-#Purpose: A script for data collection on Duolingo users using
+#Description: A script for data collection on Duolingo users using
 
 #Importing the necessary libraries
 import datetime, requests, pycountry, argparse
