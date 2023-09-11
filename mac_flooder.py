@@ -7,7 +7,7 @@ import sys
 from scapy.all import *
 
 #Defining the interface, modify as you please
-interface = 'eth0'
+interface = 'eth0'#Change this
 
 #Setting up random MACs and IP addresses
 packet = Ether(src=RandMAC(), dst=RandMAC()) / \
