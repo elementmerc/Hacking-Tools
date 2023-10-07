@@ -63,6 +63,21 @@ Inspired by [Emmanuel Ajuelos](https://github.com/ajuelosemmanuel/duolingOSINT)'
 ```
 usage: python3 lsb_steganography.py
 ```
+## mac_changer.py
+
+### Requirements
++ Python
++ Packages :
+  + subprocess 
+  + python-generate-mac
+
+### Usage
+
+```
+Edit line 11 of the script to the interface then run:
+python3 mac_changer.py
+```
+
 
 ## mac_flooder.py
 
@@ -77,4 +92,3 @@ usage: python3 lsb_steganography.py
 Edit line 10 of the script to the interface for flooding then run:
 python3 mac_flooder.py
 ```
-
