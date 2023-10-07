@@ -1,7 +1,7 @@
 # Hacking-Tools
 A repository of customized hacking tools
 
-NOTE: These are to be run on Linux, not Windows
+NOTE: These were configured for Linux. You may need to tweak the code a bit if you want to use them on Linux
 
 ## arp_spoofer.py
 
@@ -10,7 +10,7 @@ NOTE: These are to be run on Linux, not Windows
 
 ### Usage
 ```
-usage: arp_spoofer.py victim_ip router_ip
+usage: python3 arp_spoofer.py victim_ip router_ip
 
 options:
 victim_ip    IP address of the target system
@@ -27,7 +27,7 @@ router_ip    IP address of the router
 
 ### Usage
 ```
-usage: arp_spoofer.py
+usage: python3 arp_spoofer.py
 ```
 
 ## duolingo_data.py
@@ -41,7 +41,7 @@ usage: arp_spoofer.py
 ### Usage
 
 ```
-usage: duoling_data.py [-h] (-m MAIL | -u USERNAME)
+usage: python3 duoling_data.py [-h] (-m MAIL | -u USERNAME)
 
 options:
   -h, --help            show this help message and exit
@@ -61,7 +61,7 @@ Inspired by [Emmanuel Ajuelos](https://github.com/ajuelosemmanuel/duolingOSINT)'
 
 ### Usage
 ```
-usage: lsb_steganography.py
+usage: python3 lsb_steganography.py
 ```
 
 ## mac_flooder.py
@@ -75,6 +75,6 @@ usage: lsb_steganography.py
 
 ```
 Edit line 10 of the script to the interface for flooding then run:
-mac_flooder.py
+python3 mac_flooder.py
 ```
 
